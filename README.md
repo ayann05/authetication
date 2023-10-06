@@ -1,16 +1,17 @@
 # authetication
+The backend used is Firebase.
 
-A new Flutter project.
 
-## Getting Started
+A simple Flutter application to create different types of authentication methods in Flutter and to verify whether it exits or not
 
-This project is a starting point for a Flutter application.
+The project includes two authentications: one through "email and password" and the second by "phone number".
+There are 4 screens all together: login,signup, a verify screen, and then a post screen.
+On the first screen, one has to choose the ways
+On the second screen, the user enters the Email and Password 
+There's an alternate option if someone wants to login with phone number and OTP, then he can opt for the same
+If the user already has an existing account, then he can login with the credentials.
+In the OTP case, one has to login everytime with the OTP (limited in this case as Firebase has restricted the number of message pushed)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-Ayan Bhattacharyya
